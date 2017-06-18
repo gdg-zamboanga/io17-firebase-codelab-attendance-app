@@ -11,6 +11,13 @@ $(document).ready(() => {
     selectYears: 15 // Creates a dropdown of 15 years to control year
   })
 
+  function addRow(surname, givenName, gender, level) {
+    let row = $('<tr />')
+    $('<td />').html(`${surname}, ${givenName}`).appendTo(row)
+    $('<td />').html(`${gender}`).appendTo(row)
+    $('<td />').html(`${level}`).appendTo(row)
+  }
+
   /*
    * #2: Firebase Authentication
    *
