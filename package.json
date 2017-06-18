@@ -1,0 +1,29 @@
+{
+  "name": "gdg-attendance-app",
+  "version": "1.0.0",
+  "description": "Google Developer Group - Attendance Tracking App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "firebase serve"
+  },
+  "keywords": [
+    "google",
+    "developer",
+    "group",
+    "attendance",
+    "attendance",
+    "system",
+    "firebase"
+  ],
+  "author": "Jhon Andrew Baes <github.com/jhon-andrew>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^4.1.2",
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.98.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
