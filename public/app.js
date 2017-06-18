@@ -16,6 +16,7 @@ $(document).ready(() => {
     $('<td />').html(`${surname}, ${givenName}`).appendTo(row)
     $('<td />').html(`${gender}`).appendTo(row)
     $('<td />').html(`${level}`).appendTo(row)
+    row.appendTo('tbody')
   }
 
   /*
